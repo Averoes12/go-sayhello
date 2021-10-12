@@ -22,6 +22,8 @@ func main() {
 	fmt.Println("Welcome")
 	fmt.Println(myfunction.SayHello(firstName, Lastname))
 	fmt.Println(myfunction.Addrees(Addrees))
+
+	fmt.Print("Press Any key to Exit  ")
 	fmt.Scanln()
 
 }
